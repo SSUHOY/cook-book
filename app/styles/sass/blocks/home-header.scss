@@ -1,0 +1,299 @@
+body,
+html {
+  height: 100vh;
+  background-color: $deep;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto-vh, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.home-header {
+  max-height: 1069px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.home-header__content {
+  height: 100%;
+}
+
+// SLIDER
+.slider-container {
+  height: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-pagination {
+  flex: 0 0 140px;
+}
+.slider-scrollbar {
+  flex: 1 0 0;
+}
+
+.slider-img {
+  height: 100%;
+  max-width: 1600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-img__slide {
+  height: 100%;
+}
+
+.slider-img__bg {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+// PAGE ITEMS
+
+.page-item {
+  width: 50%;
+  height: 1011px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: #fff;
+}
+
+.one {
+  margin-left: 24px;
+  margin-right: 36px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.decoration-line {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #ceced1;
+}
+
+.two {
+  margin-left: 36px;
+  margin-right: 24px;
+}
+
+.page-content__one {
+  width: 94%;
+  padding-right: 72px;
+  padding-top: 68px;
+}
+.page-content__one-introduction {
+  width: 100%;
+  padding-top: 68px;
+}
+
+.page-content__two-introduction {
+  width: 100%;
+  padding-left: 62px;
+  padding-top: 68px;
+}
+.page-content__two {
+  width: 94%;
+  padding-left: 62px;
+  padding-top: 68px;
+}
+
+// TABLE
+
+.measurements-table {
+  width: 96%;
+  margin-top: 24px;
+}
+
+th,
+td {
+  height: 54px;
+  font-family: roboto-vh, sans-serif;
+  color: black;
+}
+
+th {
+  width: 50%;
+  text-align: center;
+}
+
+td {
+  width: 50%;
+}
+
+// MAIN-PAGE-STYLES
+.page-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-bottom: 14px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.page-title__introduction {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-bottom: 14px;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  text-align: left;
+  font-family: roboto-vh, sans-serif;
+  letter-spacing: 1px;
+}
+.page-subtitle__table {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 24px;
+  padding-left: 54px;
+}
+
+.chapters-list {
+  margin-top: 24px;
+}
+
+.page-chapter__box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.page-chapter__title {
+  font-size: large;
+  color: black;
+  text-transform: uppercase;
+  font-family: roboto-vh, sans-serif;
+  font-weight: 700;
+}
+
+.page-list___introduction {
+  width: 100%;
+  padding-left: 102px;
+  padding-top: 48px;
+}
+.page-list___introduction-item {
+  font-size: 16px;
+  line-height: 2.2em;
+}
+
+.preparation {
+  color: black;
+  font-family: roboto-vh, sans-serif;
+  display: flex;
+}
+
+.icon-preparation {
+  height: 24px;
+  width: auto;
+  position: absolute;
+  padding-left: 38px;
+}
+
+.icon-preparation__serves {
+  height: 24px;
+  width: auto;
+  position: absolute;
+  padding-left: 21px;
+}
+
+.page-preparation__icons {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  padding-left: 12px;
+}
+
+.page-preparation {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  padding-bottom: 28px;
+}
+
+.ingredients-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.ingredients-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 24px;
+}
+
+.ingredients-list__item {
+  list-style-type: "□";
+  padding-left: 4px;
+}
+
+.method-title {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.method-list {
+  padding-left: 46px;
+  font-weight: 500;
+  font-family: roboto-vh, sans-serif;
+}
+
+.nutritional-information {
+  padding-top: 18px;
+}
+
+.nutritional-text {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  font-family: roboto-vh, sans-serif;
+  padding-left: 24px;
+}
+
+
+.slider-bottom{
+  height: 150px;
+  background-color: #fff;
+}

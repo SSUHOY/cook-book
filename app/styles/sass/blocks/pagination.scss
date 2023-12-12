@@ -1,0 +1,26 @@
+.swiper-button-prev {
+  left: -2px;
+}
+.swiper-button-prev::after {
+  font-size: 24px;
+  color: #282828;
+}
+
+.swiper-button-next {
+  right: -2px;
+}
+.swiper-button-next::after {
+  font-size: 24px;
+  color: #282828;
+}
+
+.swiper-pagination {
+  bottom: 0;
+}
+
+.swiper-pagination-fraction {
+  font-size: 24px;
+  color: #fff;
+  font-family: roboto-vh, sans-serif;
+  font-weight: 700;
+}
